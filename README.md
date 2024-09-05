@@ -19,7 +19,7 @@ winget install --id=Leiningen.Leiningen --silent
 ```
 ## SETUP
 
-After correctly installing the needed soyware download the code (click on the green "<> Code" button and then download zip), once you extracted the folder edit the "message(.txt)" file, that's the message that is going to be posted over and over, after you did it create a folder "img" and inside insert any IMAGE from you soyfolder, in each upload a random image will be selected and ubloaded (DO NOT PLACE VIDEOS AS IM PRETTY SURE THEY WON'T WORK AT ALL!)
+After correctly installing the needed soyware download the code (click on the green "<> Code" button and then download zip), once you extracted the folder edit the "message(.txt)" file, that's the message that is going to be posted over and over, after you did it create a folder "img" and inside insert any IMAGE from you soyfolder, in each upload a random image will be selected and uploaded **DO NOT PLACE VIDEOS AS IM PRETTY SURE THEY WON'T WORK AT ALL!**
 
 ## RUNNING
 
