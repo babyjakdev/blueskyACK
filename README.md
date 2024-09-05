@@ -25,3 +25,7 @@ lein run NAME PASS PPS
 lein run is to simply start up the program, NAME is either the username or email associated with the account, PASS is the password and PPS is how many seconds to wait before making another post.
 
 example: lein run babytjak@cacasoob.com secretpassword 5
+
+HELP NEEDED:
+
+contact "sooterson" at irc.soyak.party
