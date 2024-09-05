@@ -10,6 +10,7 @@
     (io/file "img" (.getName random-file))))
 
 (defn bsky-login [driver user pass]
+  (println "loggin in...")
   (let [sign-xpath ".//button[.//div[normalize-space(text())='Sign in']]"]
     (e/wait-visible driver sign-xpath)
     (e/click driver sign-xpath))
@@ -18,7 +19,8 @@
     (e/fill driver user-xpath user))
   (let [pass-xpath ".//input[@aria-label='Password']"]
     (e/wait-visible driver pass-xpath)
-    (e/fill driver pass-xpath pass k/enter)))
+    (e/fill driver pass-xpath pass k/enter))
+  (println "logged!"))
 
 (defn bsky-poster [driver pps]
   (let [emailver-xpath ".//div[div[text()='Not right now']]"]
@@ -41,6 +43,7 @@
     (let [publish-xpath ".//button[@aria-label='Publish post']"]
       (e/wait-visible driver publish-xpath)
       (e/click driver publish-xpath))
+    (println "posted successfully!")
     (e/wait pps)
     (recur)))
 
