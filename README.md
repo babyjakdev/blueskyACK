@@ -1,5 +1,5 @@
 # blueskyACK
-## NEEDED SOYWARE:
+## NEEDED SOYWARE
 
 - openjdk (make sure you have the java compiler installed and not only java on your system) [https://adoptium.net/]
 
@@ -17,11 +17,11 @@ winget install --id=AdoptOpenJDK.OpenJDK --silent
 winget install --id=Clojure.Clojure --silent
 winget install --id=Leiningen.Leiningen --silent
 ```
-## SETUP:
+## SETUP
 
 After correctly installing the needed soyware download the code (click on the green "<> Code" button and then download zip), once you extracted the folder edit the "message(.txt)" file, that's the message that is going to be posted over and over, after you did create a folder "img" and inside insert any IMAGE from you soyfolder, in each upload a random image will be selected and ubloaded (DO NOT PLACE VIDEOS AS IM PRETTY SURE THEY WON'T WORK AT ALL!)
 
-## RUNNING:
+## RUNNING
 
 **BEFORE RUNNING THE PROGRAM MAKE SURE YOU ALREADY CREATED AN ACCOUNT!**
 
@@ -37,6 +37,6 @@ example:
 ```
 lein run babytjak@cacasoob.com secretpassword 5
 ```
-## HELP NEEDED:
+## TROUBLESHOOTING
 
 contact "sooterson" at irc.soyak.party
