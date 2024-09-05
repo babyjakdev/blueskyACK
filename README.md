@@ -6,13 +6,23 @@ clojure [https://clojure.org/]
 
 leningen [https://leiningen.org/]
 
-firefox and geckodriver [https://github.com/mozilla/geckodriver/releases]
+chrome and chromedriver [https://sites.google.com/chromium.org/driver/downloads]
 
-or you can try to install automatically all of the above by running this command inside the cmd "
+or automatically with the following cmd command
+
+winget install --id=Google.Chrome --silent
+
+winget install --id=Google.ChromeDriver --silent
+
+winget install --id=AdoptOpenJDK.OpenJDK --silent
+
+winget install --id=Clojure.Clojure --silent
+
+winget install --id=Leiningen.Leiningen --silent
 
 SETUP:
 
-After correctly installing the needed soyware download the code (click on the green "<> Code" button and then download zip), once you extracted the folder edit the "message(.txt)" file, thats the message that is going to be posted over and over, after you did it insert any image from your soyfolder inside "img", in each upload a random image will be selected and ubloaded (DO NOT PLACE VIDEOS AS IM PRETTY SURE THEY WON'T WORK AT ALL!)
+After correctly installing the needed soyware download the code (click on the green "<> Code" button and then download zip), once you extracted the folder edit the "message(.txt)" file, that's the message that is going to be posted over and over, after you did create a folder "img" and inside insert any IMAGE from you soyfolder, in each upload a random image will be selected and ubloaded (DO NOT PLACE VIDEOS AS IM PRETTY SURE THEY WON'T WORK AT ALL!)
 
 RUNNING:
 
@@ -23,6 +33,8 @@ Finally to run the software double click on "startcommand(.bat)", it will start 
 lein run NAME PASS PPS
 
 lein run is to simply start up the program, NAME is either the username or email associated with the account, PASS is the password and PPS is how many seconds to wait before making another post.
+
+!!! VERY LOW PPS MIGHT INCREASE THE CHANCHE OF A CRASH, IF IT CRASH JUST RAISE IT, THE RECCOMENDED PPS IS 5 !!!
 
 example: lein run babytjak@cacasoob.com secretpassword 5
 
